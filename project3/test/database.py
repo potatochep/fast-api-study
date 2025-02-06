@@ -14,7 +14,9 @@ db_session_context = ContextVar("db_session", default=None)
 
 
 def transactinal(func):
+    
     """
+    aa
     DB 커넥션 연결을 위한 세션 생성
     서비스 레이어에 어노테이션 적용    
     """     
